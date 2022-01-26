@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="Projects"></dbname>
+    <version value="1"></version>
+
+    <list>
+        <mapping class="com.example.evaluationofdailymaintenance.db.HighwayPatrol"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.Bridge"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.Culvert"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.Evaluator"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.HighwayGreening"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.InformationSubmission"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.MaintenanceAndSafetyProduction"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.MaintenanceMachineryAndEquipmentManagement"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.OfficeManagement"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.OrdinaryCitizens"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.Pavement"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.RegularInspectionOfBridges"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.RegularInspectionOfCulvert"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.RegularInspectionOfTunnel"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.StaffTechnicalTraining"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.StationManagement"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.Subgrade"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.SuperviseProblemRectification"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.SystemConstruction"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.TrafficEngineeringAndFacilitiesAlongTheLine"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.TrafficInvestigation"></mapping>
+        <mapping class="com.example.evaluationofdailymaintenance.db.Tunnel"></mapping>
+
+
+
+    </list>
+</litepal>
