@@ -7,11 +7,8 @@ import java.util.Date;
 public class HighwayPatrol extends LitePalSupport {
     private String EvaluatedUnit;
     private Date date;
-    private String EvaluationContent;
-    private int BasicScore;
-    private String DeductionStandard;
     private String ReasonForScoreDeduction;
-    private int EvaluationScore;
+    private Double EvaluationScore;
     private String Remarks;
 
     public String getEvaluatedUnit() {
@@ -30,29 +27,6 @@ public class HighwayPatrol extends LitePalSupport {
         this.date = date;
     }
 
-    public String getEvaluationContent() {
-        return EvaluationContent;
-    }
-
-    public void setEvaluationContent(String evaluationContent) {
-        EvaluationContent = evaluationContent;
-    }
-
-    public int getBasicScore() {
-        return BasicScore;
-    }
-
-    public void setBasicScore(int basicScore) {
-        BasicScore = basicScore;
-    }
-
-    public String getDeductionStandard() {
-        return DeductionStandard;
-    }
-
-    public void setDeductionStandard(String deductionStandard) {
-        DeductionStandard = deductionStandard;
-    }
 
     public String getReasonForScoreDeduction() {
         return ReasonForScoreDeduction;
@@ -62,11 +36,11 @@ public class HighwayPatrol extends LitePalSupport {
         ReasonForScoreDeduction = reasonForScoreDeduction;
     }
 
-    public int getEvaluationScore() {
+    public Double getEvaluationScore() {
         return EvaluationScore;
     }
 
-    public void setEvaluationScore(int evaluationScore) {
+    public void setEvaluationScore(Double evaluationScore) {
         EvaluationScore = evaluationScore;
     }
 
